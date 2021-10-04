@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment8 Code Queen</title>
+</head>
+<body>
+    
+    <script>
+    // function to print name and age
+        function person(name, age){
+            console.log("My name is " +name+", I am "+age+" years Old");
+        }
+        person('Esther',26);
+        person('Allan',25);
+        person('Priscilla',18);
+        person('Deogratious',29);
+        person('Joan',26);
+
+   // function that takes another function
+      function sum(num1,num2){
+          var summationResult = num1() + num2();
+          console.log(summationResult);
+      }
+      function num1(){
+          console.log(100);
+      }
+      function num2(){
+          console.log(200);
+      }
+      sum(num1, num2);
+
+        
+    // for loop
+        for (let country = 0; country <= 19; country++) {
+            console.log('I love Uganda');
+        }
+
+    </script>
+</body>
+</html>
